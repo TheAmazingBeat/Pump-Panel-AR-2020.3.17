@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/0-Start Menu.unity
+    guid: e78ce70182785844e83330b75cc2100b
+  - enabled: 1
+    path: Assets/Scenes/1-Main.unity
+    guid: 81e3537947b244e4c9255b378d3d0d1b
+  - enabled: 1
+    path: Assets/Scenes/2 - Hose.unity
+    guid: 4ef85fd91cddbc348a630913531420bd
+  m_configObjects:
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 34bab7e42d8c4634e8159272a66beaaa, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f6cf01823db4d3040bf4bfdf47faa881, type: 2}

@@ -364,3 +364,6 @@ FodyWeavers.xsd
 
 # My GitIgnores
 Developer
+.cert
+.privkey
+.o
