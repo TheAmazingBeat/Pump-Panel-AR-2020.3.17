@@ -1224,7 +1224,6 @@ GameObject:
   - component: {fileID: 1125217784}
   - component: {fileID: 1125217783}
   - component: {fileID: 1125217782}
-  - component: {fileID: 1125217781}
   - component: {fileID: 1125217778}
   - component: {fileID: 1125217780}
   m_Layer: 5
@@ -1305,33 +1304,6 @@ MonoBehaviour:
   mainPanel: {fileID: 1783518459}
   showHideButton: {fileID: 1991650509}
   lockButton: {fileID: 479148568}
---- !u!114 &1125217781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125217776}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea05a203896b48146ab21000fc478d4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _distance: 1
-  _heightOffset: 0
-  _lateralOffset: 0
-  _positionSmoothTime: 0.5
-  _rotationSmoothTime: 0.5
-  _lookDirection: 2
-  _placeOnAwake: 1
-  _placeOnUpdate: 1
-  _lockZRotation: 1
-  _lockXRotation: 0
-  _lockToXZPlane: 0
-  _useThreshold: 0
-  _movementThreshold: {x: 45, y: 10}
-  _distanceThreshold: 0.15
-  _useLocalSpace: 1
 --- !u!114 &1125217782
 MonoBehaviour:
   m_ObjectHideFlags: 0
