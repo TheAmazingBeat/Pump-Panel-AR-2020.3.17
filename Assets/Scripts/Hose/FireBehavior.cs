@@ -29,6 +29,7 @@ public class FireBehavior : MonoBehaviour
       {
          fire.Stop();
          fireHealth = 0;
+         // TODO Instantiate smoke particles
       }
       else
       {
@@ -49,11 +50,17 @@ public class FireBehavior : MonoBehaviour
          fireHealth -= extinguishRate;
          fireEmission.rateOverTime = fireHealth;
       }
+      else
+      {
+         Spread(other);
+      }
    }
    #endregion
 
    #region Other Methods
-   private void Spread(){
+   private void Spread(GameObject other)
+   {
+      // TODO Make clones of fire or make a large fire prefab around other
       // called if collision is not water
    }
    #endregion
