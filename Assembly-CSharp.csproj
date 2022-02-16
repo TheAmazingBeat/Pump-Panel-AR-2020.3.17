@@ -90,6 +90,7 @@
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\VirtualCursor.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\ControllerStatsText.cs" />
      <Compile Include="Assets\Scripts\Main\ControllerBeam.cs" />
+     <Compile Include="Assets\Scripts\DestroySpatialMap.cs" />
      <Compile Include="Assets\Scripts\TrackingVisuals.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\VirtualKeyboardExample.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Common\FaceTargetPosition.cs" />
@@ -113,6 +114,7 @@
      <Compile Include="Assets\MagicLeap\Examples\Streaming\MusicService\Scripts\MusicServiceVisualizer.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\RawVideoCapturePreviewExample.cs" />
      <Compile Include="Assets\MagicLeap\FoundObjects\Scripts\MLFoundObjectsExample.cs" />
+     <Compile Include="Assets\Scripts\Hose\FireBehavior.cs" />
      <Compile Include="Assets\MagicLeap\Examples\UI\Scripts\UIButtonGroup.cs" />
      <Compile Include="Assets\MagicLeap\Examples\UI\Scripts\UIToggleButton.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\LocationExample.cs" />
@@ -143,12 +145,11 @@
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\Contacts\ContactsListPageVisualizer.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\MediaPlayer51SurroundEnabler.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\VideoCaptureVisualizer.cs" />
-     <Compile Include="Assets\MagicLeap\Examples\Scripts\HandTrackingExample.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\Contacts\ContactsVisualizer.cs" />
+     <Compile Include="Assets\MagicLeap\Examples\Scripts\HandTrackingExample.cs" />
      <Compile Include="Assets\Scripts\Main\ImageTrackingManager.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\PlaceFromCamera.cs" />
-     <Compile Include="Assets\Scripts\Hose\FireBehavior.cs" />
-     <Compile Include="Assets\Scripts\DestroySpatialMap.cs" />
+     <Compile Include="Assets\Scripts\FireOut.cs" />
      <None Include="Assets\MagicLeap\Examples\Streaming\MusicService\Plugins\Lumin\music_manifest.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
