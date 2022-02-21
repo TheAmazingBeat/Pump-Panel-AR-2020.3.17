@@ -9,7 +9,6 @@ public class WaterSpray : MonoBehaviour
     #region Variables
     private MLInput.Controller _controller;
     private bool triggerPulled = false;
-    private bool notOnUI = true;
     public ParticleSystem waterParticles;
     public ParticleSystem mistParticles;
     public UnityEvent OnTriggerDown = new UnityEvent();
@@ -50,12 +49,12 @@ public class WaterSpray : MonoBehaviour
      * Turns the water on and off based on controller trigger
      * @params {...} pulled is the boolean whether controller trigger is pressed
      */
-    public void toggleSpray(bool pulled, bool isOnUI)
+    public void toggleSpray(bool pulled)
     {
         float emissionConst = 75f;
         var waterEmission = waterParticles.emission;
         var mistEmission = mistParticles.emission;
-        if (pulled && isOnUI)
+        if (pulled)
         {
             //TODO :: dynamic rateOverTime based on triggerValue
             waterEmission.rateOverTime = emissionConst;

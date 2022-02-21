@@ -121,6 +121,7 @@
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\ContentTap.cs" />
      <Compile Include="Assets\Particle System\Shared\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Common\FaceCamera.cs" />
+     <Compile Include="Assets\Scripts\FireOut.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\LightTrackingExample.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\MLRaycastVisualizer.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\Contacts\ContactsButtonVisualizer.cs" />
@@ -149,7 +150,7 @@
      <Compile Include="Assets\MagicLeap\Examples\Scripts\HandTrackingExample.cs" />
      <Compile Include="Assets\Scripts\Main\ImageTrackingManager.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\PlaceFromCamera.cs" />
-     <Compile Include="Assets\Scripts\FireOut.cs" />
+     <Compile Include="Assets\Scripts\Hose\FireSpawn.cs" />
      <None Include="Assets\MagicLeap\Examples\Streaming\MusicService\Plugins\Lumin\music_manifest.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

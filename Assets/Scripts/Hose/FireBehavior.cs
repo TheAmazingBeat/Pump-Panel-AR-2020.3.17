@@ -7,7 +7,7 @@ public class FireBehavior : MonoBehaviour
    public float fireHealth = 50;
    public float maxFireHealth = 50;
    public float fireRegen = 5;
-   public bool IsOnFire = true;
+   // public bool IsOnFire = true;
    public int extinguishRate = 1;
 
    public ParticleSystem fire;
