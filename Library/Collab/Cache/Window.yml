@@ -17,9 +17,16 @@ MonoBehaviour:
     - .collabignore
     - Assets/Developer/isaacpersonalcertificate.cert
     - Assets/Developer/isaacpersonalcertificate.cert.meta
+    - Assets/HoseNozzle.fbx
+    - Assets/HoseNozzle.fbx.meta
+    - Assets/Scenes/2 - Hose.unity
+    - Assets/Scripts/Hose/FireSpawn.cs
+    - Assets/Textures/Rubber01.jpg
+    - Assets/Textures/Rubber01.jpg.meta
+    - Assets/UI/Materials/UI_BackgroundColor.mat
     - 
-    m_Values: 00000000
-  RevisionSummary: Ignore Developer Folder
+    m_Values: 0100000000000000000000
+  RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0

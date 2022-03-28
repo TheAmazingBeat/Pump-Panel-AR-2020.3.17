@@ -3,66 +3,72 @@ using UnityEngine;
 
 public class FireBehavior : MonoBehaviour
 {
-   #region Variables
-   public float fireHealth = 50;
-   public float maxFireHealth = 50;
-   public float fireRegen = 5;
-   // public bool IsOnFire = true;
-   public int extinguishRate = 1;
+  #region Variables
+  public float fireHealth = 50;
+  public float maxFireHealth = 50;
+  public float fireRegen = 0.5f;
+  // public bool IsOnFire = true;
+  public float extinguishRate = 2.0f;
 
-   public ParticleSystem fire;
-   private ParticleSystem.EmissionModule fireEmission;
-   #endregion
+  public ParticleSystem fire;
+  private ParticleSystem.EmissionModule fireEmission;
 
-   #region Unity Methods
-   // Start is called before the first frame update
-   void Start()
-   {
-      fire = GetComponent<ParticleSystem>();
-      fireEmission = fire.emission;
-      fireHealth = fireEmission.rateOverTime.constant;
-   }
+  private bool extinguish = false;
+  #endregion
 
-   private void Update()
-   {
-      if (fireHealth <= 0)
+  #region Unity Methods
+  // Start is called before the first frame update
+  void Start()
+  {
+    fire = GetComponent<ParticleSystem>();
+    fireEmission = fire.emission;
+    fireHealth = fireEmission.rateOverTime.constant;
+  }
+
+  private void Update()
+  {
+    if (fireHealth <= 0)
+    {
+      fire.Stop();
+      fireHealth = 0;
+      // TODO Instantiate smoke particles
+    }
+
+    Debug.Log($"Extinguishing? : {extinguish}");
+    if (extinguish)
+    {
+      Debug.Log("Hitting Water");
+      if (fireHealth > 0)
       {
-         fire.Stop();
-         fireHealth = 0;
-         // TODO Instantiate smoke particles
+        fireHealth -= extinguishRate;
+        // extinguishRate += Time.deltaTime;
       }
-      else
-      {
-         // Fire regeneration
-         while (fireHealth < 50)
-         {
-            fireHealth += fireRegen * Time.deltaTime;
-            fireEmission.rateOverTime = fireHealth;
-         }
-      }
-   }
+    }
+    else
+    {
+      // Fire Regeneration
+      while (fireHealth > 0 && fireHealth < maxFireHealth)
+        fireHealth += fireRegen;
+    }
 
-   private void OnParticleCollision(GameObject other)
-   {
-      // If fire is wet, decrease fire emission
-      if (other.tag == "Water")
-      {
-         fireHealth -= extinguishRate;
-         fireEmission.rateOverTime = fireHealth;
-      }
-      else
-      {
-         Spread(other);
-      }
-   }
-   #endregion
+    fireEmission.rateOverTime = fireHealth;
+  }
 
-   #region Other Methods
-   private void Spread(GameObject other)
-   {
-      // TODO Make clones of fire or make a large fire prefab around other
-      // called if collision is not water
-   }
-   #endregion
+  private void OnParticleCollision(GameObject other)
+  {
+    // If fire is wet, decrease fire emission
+    if (other.tag == "Water") extinguish = true;
+    else if (other.tag == "Flammable") Spread(other);
+    else extinguish = false;
+  }
+  #endregion
+
+  #region Other Methods
+  private void Spread(GameObject other)
+  {
+    // TODO Make clones of fire or make a large fire prefab around other
+    // called if collision is not water
+  }
+  #endregion
 
 }

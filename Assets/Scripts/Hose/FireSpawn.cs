@@ -4,46 +4,46 @@ using UnityEngine;
 
 public class FireSpawn : MonoBehaviour
 {
-   #region Variables
-   public GameObject firePrefab;
-   public bool FireSpawning = true;
-   public int minimumFires = 1;
-   public int maximumFires = 2;
-   #endregion
+  #region Variables
+  public GameObject firePrefab;
+  public bool FireSpawning = true;
+  public int minimumFires = 1;
+  public int maximumFires = 2;
+  #endregion
 
-   #region Unity Methods
-   // Start is called before the first frame update
-   void Start()
-   {
-      if (FireSpawning)
-         Place(minimumFires, maximumFires);
-   }
+  #region Unity Methods
+  // Start is called before the first frame update
+  void Start()
+  {
+    if (FireSpawning)
+      Place(minimumFires, maximumFires);
+  }
 
-   // Update is called once per frame
-   void Update()
-   {
+  // Update is called once per frame
+  void Update()
+  {
 
-   }
-   #endregion
+  }
+  #endregion
 
-   #region Other Methods
-   // TODO Make fire randomly spawn
-   private void Place(int minFireCount, int maxFireCount)
-   {
-      // Random Position within world space
-      Vector3 randomPosition()
-      {
-         float floor = -0.75f;
-         return new Vector3(Random.Range(-2.0f, 2.0f), floor, Random.Range(-2.0f, 2.0f));
-      }
+  #region Other Methods
+  // TODO Make fire randomly spawn
+  private void Place(int minFireCount, int maxFireCount)
+  {
+    // Random Position within world space
+    Vector3 randomPosition()
+    {
+      float floor = 0f;
+      return new Vector3(Random.Range(-2.0f, 2.0f), floor, Random.Range(-2.0f, 2.0f));
+    }
 
-      // Instantiate Fire Particle System prefab <fireCount> times
-      int counter = 0;
-      while (counter < (int)Random.Range(minFireCount, maxFireCount))
-      {
-         Instantiate(firePrefab, randomPosition(), Quaternion.identity);
-         counter++;
-      }
-   }
-   #endregion
+    // Instantiate Fire Particle System prefab <fireCount> times
+    int counter = 0;
+    while (counter < (int)Random.Range(minFireCount, maxFireCount))
+    {
+      Instantiate(firePrefab, randomPosition(), Quaternion.Euler(0, 0, 0));
+      counter++;
+    }
+  }
+  #endregion
 }
