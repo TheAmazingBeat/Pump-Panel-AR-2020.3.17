@@ -867,7 +867,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 50
+      scalar: 100
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -3612,7 +3612,7 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 1
+    enabled: 0
     serializedVersion: 4
     type: 1
     collisionMode: 0
@@ -3782,10 +3782,10 @@ ParticleSystem:
         m_RotationOrder: 4
     minKillSpeed: 0
     maxKillSpeed: 10000
-    radiusScale: 1
+    radiusScale: 1.25
     collidesWith:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 17
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
@@ -4818,11 +4818,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ec76696d2c1db439096e368fbe24af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireHealth: 50
-  maxFireHealth: 50
+  fireHealth: 100
+  maxFireHealth: 100
   fireRegen: 0.5
-  extinguishRate: 2
+  extinguishRate: 1
   fire: {fileID: 6031786410760803511}
+  extinguish: 0
 --- !u!136 &6703207928965980783
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4833,7 +4834,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.015
-  m_Height: 0.23493083
+  m_Radius: 0.05
+  m_Height: 0.25
   m_Direction: 1
-  m_Center: {x: 0, y: 0.060259975, z: 0}
+  m_Center: {x: 0, y: 0.1, z: 0}

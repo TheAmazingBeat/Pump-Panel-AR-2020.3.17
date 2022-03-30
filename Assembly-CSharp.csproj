@@ -43,6 +43,7 @@
      <Compile Include="Assets\Scripts\Main\ControlBehavior.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\ContactsExample.cs" />
      <Compile Include="Assets\Scripts\Main\TrackedObjectVisualizer.cs" />
+     <Compile Include="Assets\Scripts\Hose\FireSpawn.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\MeshingVisualizer.cs" />
      <Compile Include="Assets\Particle System\Shared\Scripts\SimpleCharacterMotor.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Streaming\Common\Scripts\Utility\MediaPlayerToggle.cs" />
@@ -150,7 +151,7 @@
      <Compile Include="Assets\MagicLeap\Examples\Scripts\HandTrackingExample.cs" />
      <Compile Include="Assets\Scripts\Main\ImageTrackingManager.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\PlaceFromCamera.cs" />
-     <Compile Include="Assets\Scripts\Hose\FireSpawn.cs" />
+     <Compile Include="Assets\WaterBehavior.cs" />
      <None Include="Assets\MagicLeap\Examples\Streaming\MusicService\Plugins\Lumin\music_manifest.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

@@ -14,18 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - .collabignore
     - Assets/Developer/isaacpersonalcertificate.cert
     - Assets/Developer/isaacpersonalcertificate.cert.meta
-    - Assets/HoseNozzle.fbx
-    - Assets/HoseNozzle.fbx.meta
-    - Assets/Scenes/2 - Hose.unity
-    - Assets/Scripts/Hose/FireSpawn.cs
-    - Assets/Textures/Rubber01.jpg
-    - Assets/Textures/Rubber01.jpg.meta
-    - Assets/UI/Materials/UI_BackgroundColor.mat
+    - Assets/Scripts/Hose/FireBehavior.cs
     - 
-    m_Values: 0100000000000000000000
+    m_Values: 00000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

@@ -41,7 +41,8 @@ public class FireSpawn : MonoBehaviour
     int counter = 0;
     while (counter < (int)Random.Range(minFireCount, maxFireCount))
     {
-      Instantiate(firePrefab, randomPosition(), Quaternion.Euler(0, 0, 0));
+      var fire = Instantiate(firePrefab, randomPosition(), Quaternion.identity);
+      fire.transform.parent = gameObject.transform;
       counter++;
     }
   }
