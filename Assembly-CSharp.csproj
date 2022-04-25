@@ -137,6 +137,7 @@
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\ContentDragController.cs" />
      <Compile Include="Assets\MagicLeap\MRCamera\Scripts\MLMRCameraExample.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\DeepSpaceExplorerLauncher.cs" />
+     <Compile Include="Assets\WaterBehavior.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\AudioCaptureExample.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\Contacts\ContactsTextFieldVisualizer.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Streaming\MediaPlayer\Scripts\MediaPlayerExample.cs" />
@@ -151,7 +152,8 @@
      <Compile Include="Assets\MagicLeap\Examples\Scripts\HandTrackingExample.cs" />
      <Compile Include="Assets\Scripts\Main\ImageTrackingManager.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\PlaceFromCamera.cs" />
-     <Compile Include="Assets\WaterBehavior.cs" />
+     <Compile Include="Assets\Scripts\SceneStarter.cs" />
+     <Compile Include="Assets\Scripts\Hose\PumpPanelPlacer.cs" />
      <None Include="Assets\MagicLeap\Examples\Streaming\MusicService\Plugins\Lumin\music_manifest.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

@@ -6,38 +6,37 @@ using UnityEngine.XR.MagicLeap;
 [RequireComponent(typeof(LineRenderer))]
 public class DynamicBeam : MonoBehaviour
 {
-    private MLInput.Controller controller;
-    private LineRenderer beamLine = null;
-    public Color startColor;
-    public Color endColor;
+  private MLInput.Controller controller;
+  private LineRenderer beamLine;
+  public Color startColor;
+  public Color endColor;
+  // Start is called before the first frame update
+  void Start()
+  {
+    controller = MLInput.GetController(MLInput.Hand.Left);
+    beamLine = GetComponent<LineRenderer>();
+    beamLine.startColor = startColor;
+    beamLine.endColor = endColor;
+  }
 
-    // Start is called before the first frame update
-    void Start()
+  // Update is called once per frame
+  void Update()
+  {
+    transform.position = controller.Position;
+    transform.rotation = controller.Orientation;
+
+    RaycastHit hit;
+    if (Physics.Raycast(transform.position, transform.forward, out hit))
     {
-        controller = MLInput.GetController(MLInput.Hand.Left);
-        beamLine.GetComponent<LineRenderer>();
-        beamLine.startColor = startColor;
-        beamLine.endColor = endColor;
+        beamLine.useWorldSpace = true;
+        beamLine.SetPosition(0, transform.position);
+        beamLine.SetPosition(1, hit.point);
     }
-
-    // Update is called once per frame
-    void Update()
+    else
     {
-        transform.position = controller.Position;
-        transform.rotation = controller.Orientation;
-
-        RaycastHit hit;
-        if(Physics.Raycast(transform.position, transform.forward, out hit))
-        {
-            beamLine.useWorldSpace = true;
-            beamLine.SetPosition(0, transform.position);
-            beamLine.SetPosition(1, hit.point);
-        }
-        else
-        {
-            beamLine.useWorldSpace = true;
-            beamLine.SetPosition(0, transform.position);
-            beamLine.SetPosition(1, transform.forward * 5);
-        }
+      beamLine.useWorldSpace = true;
+      beamLine.SetPosition(0, transform.position);
+      beamLine.SetPosition(1, transform.forward * 5);
     }
+  }
 }

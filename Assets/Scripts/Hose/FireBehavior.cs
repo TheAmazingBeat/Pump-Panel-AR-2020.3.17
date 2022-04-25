@@ -31,13 +31,13 @@ public class FireBehavior : MonoBehaviour
     {
       fire.Stop();
       fireHealth = 0;
-      // Destroy(gameObject);
+      Destroy(gameObject);
       // TODO Instantiate smoke particles
     }
 
     if (extinguish)
     {
-      Debug.Log("Hitting Water");
+      // Debug.Log("Hitting Water");
       if (fireHealth > 0)
         fireHealth -= extinguishRate;
     }
