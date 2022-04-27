@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -71,6 +71,7 @@
      <Compile Include="Assets\MagicLeap\Examples\Scripts\VideoCaptureExample.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\PlanesExample.cs" />
      <Compile Include="Assets\Scripts\ImageTrackingSystem.cs" />
+     <Compile Include="Assets\Scripts\SceneStarter.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Streaming\Common\Scripts\Utility\MediaPlayerSlider.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\PrivilegeDeniedError.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\WacomTabletVisualizer.cs" />
@@ -122,7 +123,6 @@
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\ContentTap.cs" />
      <Compile Include="Assets\Particle System\Shared\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Common\FaceCamera.cs" />
-     <Compile Include="Assets\Scripts\FireOut.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\LightTrackingExample.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\MLRaycastVisualizer.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\Contacts\ContactsButtonVisualizer.cs" />
@@ -152,7 +152,6 @@
      <Compile Include="Assets\MagicLeap\Examples\Scripts\HandTrackingExample.cs" />
      <Compile Include="Assets\Scripts\Main\ImageTrackingManager.cs" />
      <Compile Include="Assets\MagicLeap\Examples\Scripts\Utility\PlaceFromCamera.cs" />
-     <Compile Include="Assets\Scripts\SceneStarter.cs" />
      <Compile Include="Assets\Scripts\Hose\PumpPanelPlacer.cs" />
      <None Include="Assets\MagicLeap\Examples\Streaming\MusicService\Plugins\Lumin\music_manifest.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -413,9 +412,6 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>C:\Users\s741961\Desktop\Pump Panel AR-2020.3.17\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

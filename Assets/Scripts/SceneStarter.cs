@@ -13,7 +13,8 @@ public class SceneStarter : MonoBehaviour
     Reset();
   }
 
-  public void Reset(){
+  public void Reset()
+  {
     foreach (GameObject item in objectToDisable)
     {
       item.SetActive(false);
