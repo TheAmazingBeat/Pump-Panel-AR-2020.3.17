@@ -1,0 +1,4 @@
+repository "Pump Panel AR@baldirom000@cloud"
+  path "/"
+    br "/main"
+    co "/main"

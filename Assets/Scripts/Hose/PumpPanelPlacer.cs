@@ -8,9 +8,6 @@ public class PumpPanelPlacer : MonoBehaviour
   public GameObject pumpPanel;
   public MLInput.Controller controller;
   public GameObject MainUIPanel;
-  public GameObject Fire;
-  public GameObject Water;
-  public GameObject controllerObj;
 
   private MLInput.Controller _controller;
   private bool trigger = false;
@@ -35,33 +32,32 @@ public class PumpPanelPlacer : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
-    if (!trigger)
-    {
-      RaycastHit hit;
-      if (Physics.Raycast(controller.Position, transform.forward, out hit))
-      {
-        pumpPanel.transform.position = hit.point;
-        pumpPanel.transform.rotation = controller.Orientation;
-      }
-    }
+    pumpPanel.transform.rotation = transform.rotation;
+    
+    if (trigger)
+      pumpPanel.GetComponent<Rigidbody>().useGravity = true;
+    else
+      FollowCursor();
+  }
 
+  void FollowCursor()
+  {
+    RaycastHit hit;
+    if (Physics.Raycast(controller.Position, transform.forward, out hit))
+    {
+      // Debug.Log(hit.point);
+      pumpPanel.transform.position = hit.point;
+    }
   }
 
   void OnTrigDown(byte controlId, float TriggerValue)
   {
     if (!MainUIPanel.activeSelf)
-    {
       trigger = true;
-      pumpPanel.GetComponent<Rigidbody>().useGravity = true;
-      Fire.SetActive(true);
-      Water.SetActive(true);
-      controllerObj.SetActive(false);
-    }
-
   }
 
   void OnTrigUp(byte controlId, float TriggerValue)
   {
-    // trigger = false;
+    trigger = false;
   }
 }

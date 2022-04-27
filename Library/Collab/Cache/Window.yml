@@ -14,14 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Scenes/0-Start Menu.unity
-    - Assets/Scenes/1-Main.unity
-    - Assets/Scenes/2 - Hose.unity
-    - Assets/Scripts/DynamicBeam.cs
-    - Assets/Scripts/Hose/HoseUI.cs
-    - Assets/Scripts/Hose/PumpPanelPlacer.cs
+    - Assets/Scenes/0-Start Menu.unity.private.0
+    - Assets/Scenes/0-Start Menu.unity.private.0.meta
+    - Assets/Scenes/1-Main.unity.private.0
+    - Assets/Scenes/1-Main.unity.private.0.meta
+    - Assets/Scenes/2 - Hose.unity.private.0
+    - Assets/Scenes/2 - Hose.unity.private.0.meta
+    - Assets/Scripts/DynamicBeam.cs.private.0
+    - Assets/Scripts/DynamicBeam.cs.private.0.meta
+    - Assets/Scripts/Hose/HoseUI.cs.private.0
+    - Assets/Scripts/Hose/HoseUI.cs.private.0.meta
+    - Assets/Scripts/Hose/PumpPanelPlacer.cs.private.0
+    - Assets/Scripts/Hose/PumpPanelPlacer.cs.private.0.meta
+    - Assets/Scripts/SceneStarter.cs.private.0
+    - Assets/Scripts/SceneStarter.cs.private.0.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
     - 
-    m_Values: 00000000000000
+    m_Values: 0000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
