@@ -20,6 +20,7 @@ public class FireBehavior : MonoBehaviour
   // Start is called before the first frame update
   void Start()
   {
+    fire.transform.position = transform.parent.position;
     fire = GetComponent<ParticleSystem>();
     fireEmission = fire.emission;
     fireHealth = fireEmission.rateOverTime.constant;
@@ -27,6 +28,7 @@ public class FireBehavior : MonoBehaviour
 
   private void Update()
   {
+    transform.rotation = Quaternion.Euler(0, 0, 0);
     if (fireHealth <= 0)
     {
       fire.Stop();
