@@ -64,8 +64,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* Input_GetButtonDown_m2001112EBCA3D5C7B0344E
 IL2CPP_EXTERN_C const RuntimeMethod* Input_GetKeyDownInt_mEAC027107792507CA7F0B1DFBEA4E6289CDCCCBA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Input_GetKeyDown_m476116696E71771641BBECBAB1A4C55E69018220_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Input_GetKeyInt_mCBF4A2379EF913E589DFF4AE9C9407D0AC6B4E4D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_GetKeyUpInt_mBF5453011D089E0D585F38D8BC72AB743CE243BE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Input_GetKeyUp_mDE9D56FE11715566D4D54FD96F8E1EF9734D225F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Input_GetKey_mFDD450A4C61F2930928B12287FFBD1ACCB71E429_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Input_GetMouseButtonDown_m466D81FDCC87C9CB07557B39DCB435EB691F1EF3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Input_GetMouseButtonUp_m2BA562F8C4FE8364EEC93970093E776371DF4022_RuntimeMethod_var;
@@ -1411,8 +1409,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_GetTouch_Injected_m19710838FFBDDC3E60536B0932D3B5A392BE539D (int32_t ___index0, Touch_tDEFED247540BCFA4AD452F1D37EEF4E09B4ACD8C * ___ret1, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyInt_mCBF4A2379EF913E589DFF4AE9C9407D0AC6B4E4D (int32_t ___key0, const RuntimeMethod* method);
-// System.Boolean UnityEngine.Input::GetKeyUpInt(UnityEngine.KeyCode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyUpInt_mBF5453011D089E0D585F38D8BC72AB743CE243BE (int32_t ___key0, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDownInt_mEAC027107792507CA7F0B1DFBEA4E6289CDCCCBA (int32_t ___key0, const RuntimeMethod* method);
 // System.Void UnityEngine.Input::get_mousePosition_Injected(UnityEngine.Vector3&)
@@ -1617,23 +1613,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyInt_mCBF4A2379EF913E589DFF4A
 	bool icallRetVal = _il2cpp_icall_func(___key0);
 	return icallRetVal;
 }
-// System.Boolean UnityEngine.Input::GetKeyUpInt(UnityEngine.KeyCode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyUpInt_mBF5453011D089E0D585F38D8BC72AB743CE243BE (int32_t ___key0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_GetKeyUpInt_mBF5453011D089E0D585F38D8BC72AB743CE243BE_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	StackTraceSentry _stackTraceSentry(Input_GetKeyUpInt_mBF5453011D089E0D585F38D8BC72AB743CE243BE_RuntimeMethod_var);
-	typedef bool (*Input_GetKeyUpInt_mBF5453011D089E0D585F38D8BC72AB743CE243BE_ftn) (int32_t);
-	static Input_GetKeyUpInt_mBF5453011D089E0D585F38D8BC72AB743CE243BE_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Input_GetKeyUpInt_mBF5453011D089E0D585F38D8BC72AB743CE243BE_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetKeyUpInt(UnityEngine.KeyCode)");
-	bool icallRetVal = _il2cpp_icall_func(___key0);
-	return icallRetVal;
-}
 // System.Boolean UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDownInt_mEAC027107792507CA7F0B1DFBEA4E6289CDCCCBA (int32_t ___key0, const RuntimeMethod* method)
 {
@@ -1787,31 +1766,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKey_mFDD450A4C61F2930928B12287F
 		int32_t L_0 = ___key0;
 		bool L_1;
 		L_1 = Input_GetKeyInt_mCBF4A2379EF913E589DFF4AE9C9407D0AC6B4E4D(L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		bool L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Boolean UnityEngine.Input::GetKeyUp(UnityEngine.KeyCode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyUp_mDE9D56FE11715566D4D54FD96F8E1EF9734D225F (int32_t ___key0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_GetKeyUp_mDE9D56FE11715566D4D54FD96F8E1EF9734D225F_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	StackTraceSentry _stackTraceSentry(Input_GetKeyUp_mDE9D56FE11715566D4D54FD96F8E1EF9734D225F_RuntimeMethod_var);
-	bool V_0 = false;
-	{
-		int32_t L_0 = ___key0;
-		bool L_1;
-		L_1 = Input_GetKeyUpInt_mBF5453011D089E0D585F38D8BC72AB743CE243BE(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		goto IL_000a;
 	}

@@ -10,6 +10,11 @@ public class SceneStarter : MonoBehaviour
   // Start is called before the first frame update
   void Start()
   {
+    Reset();
+  }
+
+  public void Reset()
+  {
     foreach (GameObject item in objectToDisable)
     {
       item.SetActive(false);

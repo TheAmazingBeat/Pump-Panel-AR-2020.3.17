@@ -1361,7 +1361,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* InternalsVisibleToAttribute_set_AllInternal
 IL2CPP_EXTERN_C const RuntimeMethod* IntrospectionExtensions_GetTypeInfo_m77034F8576BE695819427C13103C591277C1B636_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IntrospectiveSortUtilities_FloorLog2_m05ECB6CAC7A23087D9EC2C2A4DDCFE12272C3872_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IntrospectiveSortUtilities_ThrowOrIgnoreBadComparer_mE23A8103696FA67F874E7DA86625BB3921DB801F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InvalidCastException__ctor_m0C11BE99DD92ABF0B0D58EB857CCA07566B76BFC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InvalidCastException__ctor_m50103CBF0C211B93BF46697875413A10B5A5C5A3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InvalidCastException__ctor_m76E962000488C3BEA2B6FC2F48B31FF1AEE32934_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InvalidCastException__ctor_mFBBC789B4C416EC7F4418B69946A4F2B05671D63_RuntimeMethod_var;
@@ -1671,37 +1670,37 @@ struct ConditionalWeakTable_2_t5051815BADC99C4FE5D8F9293F92B3C7FD565B5E  : publi
 {
 public:
 	// System.Runtime.CompilerServices.Ephemeron[] System.Runtime.CompilerServices.ConditionalWeakTable`2::data
-	EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* ___data_4;
+	EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* ___data_0;
 	// System.Object System.Runtime.CompilerServices.ConditionalWeakTable`2::_lock
-	RuntimeObject * ____lock_5;
+	RuntimeObject * ____lock_1;
 	// System.Int32 System.Runtime.CompilerServices.ConditionalWeakTable`2::size
-	int32_t ___size_6;
+	int32_t ___size_2;
 
 public:
-	inline static int32_t get_offset_of_data_4() { return static_cast<int32_t>(offsetof(ConditionalWeakTable_2_t5051815BADC99C4FE5D8F9293F92B3C7FD565B5E, ___data_4)); }
-	inline EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* get_data_4() const { return ___data_4; }
-	inline EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8** get_address_of_data_4() { return &___data_4; }
-	inline void set_data_4(EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* value)
+	inline static int32_t get_offset_of_data_0() { return static_cast<int32_t>(offsetof(ConditionalWeakTable_2_t5051815BADC99C4FE5D8F9293F92B3C7FD565B5E, ___data_0)); }
+	inline EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* get_data_0() const { return ___data_0; }
+	inline EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8** get_address_of_data_0() { return &___data_0; }
+	inline void set_data_0(EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* value)
 	{
-		___data_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___data_4), (void*)value);
+		___data_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___data_0), (void*)value);
 	}
 
-	inline static int32_t get_offset_of__lock_5() { return static_cast<int32_t>(offsetof(ConditionalWeakTable_2_t5051815BADC99C4FE5D8F9293F92B3C7FD565B5E, ____lock_5)); }
-	inline RuntimeObject * get__lock_5() const { return ____lock_5; }
-	inline RuntimeObject ** get_address_of__lock_5() { return &____lock_5; }
-	inline void set__lock_5(RuntimeObject * value)
+	inline static int32_t get_offset_of__lock_1() { return static_cast<int32_t>(offsetof(ConditionalWeakTable_2_t5051815BADC99C4FE5D8F9293F92B3C7FD565B5E, ____lock_1)); }
+	inline RuntimeObject * get__lock_1() const { return ____lock_1; }
+	inline RuntimeObject ** get_address_of__lock_1() { return &____lock_1; }
+	inline void set__lock_1(RuntimeObject * value)
 	{
-		____lock_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____lock_5), (void*)value);
+		____lock_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____lock_1), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_size_6() { return static_cast<int32_t>(offsetof(ConditionalWeakTable_2_t5051815BADC99C4FE5D8F9293F92B3C7FD565B5E, ___size_6)); }
-	inline int32_t get_size_6() const { return ___size_6; }
-	inline int32_t* get_address_of_size_6() { return &___size_6; }
-	inline void set_size_6(int32_t value)
+	inline static int32_t get_offset_of_size_2() { return static_cast<int32_t>(offsetof(ConditionalWeakTable_2_t5051815BADC99C4FE5D8F9293F92B3C7FD565B5E, ___size_2)); }
+	inline int32_t get_size_2() const { return ___size_2; }
+	inline int32_t* get_address_of_size_2() { return &___size_2; }
+	inline void set_size_2(int32_t value)
 	{
-		___size_6 = value;
+		___size_2 = value;
 	}
 };
 
@@ -12188,37 +12187,37 @@ struct ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E  : public 
 {
 public:
 	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.ManualResetEventSlim::m_lock
-	RuntimeObject * ___m_lock_2;
+	RuntimeObject * ___m_lock_0;
 	// System.Threading.ManualResetEvent modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.ManualResetEventSlim::m_eventObj
-	ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * ___m_eventObj_3;
+	ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * ___m_eventObj_1;
 	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.ManualResetEventSlim::m_combinedState
-	int32_t ___m_combinedState_4;
+	int32_t ___m_combinedState_2;
 
 public:
-	inline static int32_t get_offset_of_m_lock_2() { return static_cast<int32_t>(offsetof(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E, ___m_lock_2)); }
-	inline RuntimeObject * get_m_lock_2() const { return ___m_lock_2; }
-	inline RuntimeObject ** get_address_of_m_lock_2() { return &___m_lock_2; }
-	inline void set_m_lock_2(RuntimeObject * value)
+	inline static int32_t get_offset_of_m_lock_0() { return static_cast<int32_t>(offsetof(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E, ___m_lock_0)); }
+	inline RuntimeObject * get_m_lock_0() const { return ___m_lock_0; }
+	inline RuntimeObject ** get_address_of_m_lock_0() { return &___m_lock_0; }
+	inline void set_m_lock_0(RuntimeObject * value)
 	{
-		___m_lock_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_lock_2), (void*)value);
+		___m_lock_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_lock_0), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_m_eventObj_3() { return static_cast<int32_t>(offsetof(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E, ___m_eventObj_3)); }
-	inline ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * get_m_eventObj_3() const { return ___m_eventObj_3; }
-	inline ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA ** get_address_of_m_eventObj_3() { return &___m_eventObj_3; }
-	inline void set_m_eventObj_3(ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * value)
+	inline static int32_t get_offset_of_m_eventObj_1() { return static_cast<int32_t>(offsetof(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E, ___m_eventObj_1)); }
+	inline ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * get_m_eventObj_1() const { return ___m_eventObj_1; }
+	inline ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA ** get_address_of_m_eventObj_1() { return &___m_eventObj_1; }
+	inline void set_m_eventObj_1(ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * value)
 	{
-		___m_eventObj_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_eventObj_3), (void*)value);
+		___m_eventObj_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_eventObj_1), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_m_combinedState_4() { return static_cast<int32_t>(offsetof(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E, ___m_combinedState_4)); }
-	inline int32_t get_m_combinedState_4() const { return ___m_combinedState_4; }
-	inline int32_t* get_address_of_m_combinedState_4() { return &___m_combinedState_4; }
-	inline void set_m_combinedState_4(int32_t value)
+	inline static int32_t get_offset_of_m_combinedState_2() { return static_cast<int32_t>(offsetof(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E, ___m_combinedState_2)); }
+	inline int32_t get_m_combinedState_2() const { return ___m_combinedState_2; }
+	inline int32_t* get_address_of_m_combinedState_2() { return &___m_combinedState_2; }
+	inline void set_m_combinedState_2(int32_t value)
 	{
-		___m_combinedState_4 = value;
+		___m_combinedState_2 = value;
 	}
 };
 
@@ -12226,16 +12225,16 @@ struct ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_StaticFiel
 {
 public:
 	// System.Action`1<System.Object> System.Threading.ManualResetEventSlim::s_cancellationTokenCallback
-	Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * ___s_cancellationTokenCallback_14;
+	Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * ___s_cancellationTokenCallback_3;
 
 public:
-	inline static int32_t get_offset_of_s_cancellationTokenCallback_14() { return static_cast<int32_t>(offsetof(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_StaticFields, ___s_cancellationTokenCallback_14)); }
-	inline Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * get_s_cancellationTokenCallback_14() const { return ___s_cancellationTokenCallback_14; }
-	inline Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC ** get_address_of_s_cancellationTokenCallback_14() { return &___s_cancellationTokenCallback_14; }
-	inline void set_s_cancellationTokenCallback_14(Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * value)
+	inline static int32_t get_offset_of_s_cancellationTokenCallback_3() { return static_cast<int32_t>(offsetof(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_StaticFields, ___s_cancellationTokenCallback_3)); }
+	inline Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * get_s_cancellationTokenCallback_3() const { return ___s_cancellationTokenCallback_3; }
+	inline Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC ** get_address_of_s_cancellationTokenCallback_3() { return &___s_cancellationTokenCallback_3; }
+	inline void set_s_cancellationTokenCallback_3(Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * value)
 	{
-		___s_cancellationTokenCallback_14 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_cancellationTokenCallback_14), (void*)value);
+		___s_cancellationTokenCallback_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_cancellationTokenCallback_3), (void*)value);
 	}
 };
 
@@ -30997,24 +30996,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidCastException__ctor_m50103CBF0C21
 		return;
 	}
 }
-// System.Void System.InvalidCastException::.ctor(System.String,System.Exception)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidCastException__ctor_m0C11BE99DD92ABF0B0D58EB857CCA07566B76BFC (InvalidCastException_tD99F9FF94C3859C78E90F68C2F77A1558BCAF463 * __this, String_t* ___message0, Exception_t * ___innerException1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InvalidCastException__ctor_m0C11BE99DD92ABF0B0D58EB857CCA07566B76BFC_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	StackTraceSentry _stackTraceSentry(InvalidCastException__ctor_m0C11BE99DD92ABF0B0D58EB857CCA07566B76BFC_RuntimeMethod_var);
-	{
-		String_t* L_0 = ___message0;
-		Exception_t * L_1 = ___innerException1;
-		SystemException__ctor_m14A39C396B94BEE4EFEA201FB748572011855A94(__this, L_0, L_1, /*hidden argument*/NULL);
-		Exception_SetErrorCode_m92A787DA80F9CBC81E05D158F3D8099A8F1DD44D(__this, ((int32_t)-2147467262), /*hidden argument*/NULL);
-		return;
-	}
-}
 // System.Void System.InvalidCastException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidCastException__ctor_mFBBC789B4C416EC7F4418B69946A4F2B05671D63 (InvalidCastException_tD99F9FF94C3859C78E90F68C2F77A1558BCAF463 * __this, SerializationInfo_t097DA64D9DB49ED7F2458E964BE8CCCF63FC67C1 * ___info0, StreamingContext_t5888E7E8C81AB6EF3B14FDDA6674F458076A8505  ___context1, const RuntimeMethod* method)
 {
@@ -45220,7 +45201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WaitHandle_t1D7DD8480FD5DA4E3AF92F569890FB972
 	StackTraceSentry _stackTraceSentry(ManualResetEventSlim_get_WaitHandle_m8CF99F3ECB9EE8E33246FF8B7594FF9DB36C521F_RuntimeMethod_var);
 	{
 		ManualResetEventSlim_ThrowIfDisposed_m7DE870F451C8BCA2AFEE661371EFFE71B094C4FA(__this, /*hidden argument*/NULL);
-		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_0 = __this->get_m_eventObj_3();
+		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_0 = __this->get_m_eventObj_1();
 		il2cpp_codegen_memory_barrier();
 		if (L_0)
 		{
@@ -45234,7 +45215,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WaitHandle_t1D7DD8480FD5DA4E3AF92F569890FB972
 
 IL_0017:
 	{
-		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_2 = __this->get_m_eventObj_3();
+		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_2 = __this->get_m_eventObj_1();
 		il2cpp_codegen_memory_barrier();
 		return L_2;
 	}
@@ -45251,7 +45232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ManualResetEventSlim_get_IsSet_mC7072CBE
 	}
 	StackTraceSentry _stackTraceSentry(ManualResetEventSlim_get_IsSet_mC7072CBE0F9ADD761909691D21A500F4ACF78D7D_RuntimeMethod_var);
 	{
-		int32_t L_0 = __this->get_m_combinedState_4();
+		int32_t L_0 = __this->get_m_combinedState_2();
 		il2cpp_codegen_memory_barrier();
 		IL2CPP_RUNTIME_CLASS_INIT(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -45313,7 +45294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ManualResetEventSlim_get_SpinCount_mD
 	}
 	StackTraceSentry _stackTraceSentry(ManualResetEventSlim_get_SpinCount_mD7F784A99A0E8C03BAA673758C7D207E96E7AB10_RuntimeMethod_var);
 	{
-		int32_t L_0 = __this->get_m_combinedState_4();
+		int32_t L_0 = __this->get_m_combinedState_2();
 		il2cpp_codegen_memory_barrier();
 		IL2CPP_RUNTIME_CLASS_INIT(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -45332,11 +45313,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManualResetEventSlim_set_SpinCount_m9657
 	}
 	StackTraceSentry _stackTraceSentry(ManualResetEventSlim_set_SpinCount_m9657F860C4003164AB7952012A5EFA6C70CB23F5_RuntimeMethod_var);
 	{
-		int32_t L_0 = __this->get_m_combinedState_4();
+		int32_t L_0 = __this->get_m_combinedState_2();
 		il2cpp_codegen_memory_barrier();
 		int32_t L_1 = ___value0;
 		il2cpp_codegen_memory_barrier();
-		__this->set_m_combinedState_4(((int32_t)((int32_t)((int32_t)((int32_t)L_0&(int32_t)((int32_t)-1073217537)))|(int32_t)((int32_t)((int32_t)L_1<<(int32_t)((int32_t)19))))));
+		__this->set_m_combinedState_2(((int32_t)((int32_t)((int32_t)((int32_t)L_0&(int32_t)((int32_t)-1073217537)))|(int32_t)((int32_t)((int32_t)L_1<<(int32_t)((int32_t)19))))));
 		return;
 	}
 }
@@ -45352,7 +45333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ManualResetEventSlim_get_Waiters_mD9A
 	}
 	StackTraceSentry _stackTraceSentry(ManualResetEventSlim_get_Waiters_mD9A891F1412015D4326A8C3B846AE4AC9A9D9706_RuntimeMethod_var);
 	{
-		int32_t L_0 = __this->get_m_combinedState_4();
+		int32_t L_0 = __this->get_m_combinedState_2();
 		il2cpp_codegen_memory_barrier();
 		IL2CPP_RUNTIME_CLASS_INIT(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -45508,7 +45489,7 @@ IL_000c:
 	{
 		NullCheck(G_B3_1);
 		il2cpp_codegen_memory_barrier();
-		G_B3_1->set_m_combinedState_4(G_B3_0);
+		G_B3_1->set_m_combinedState_2(G_B3_0);
 		bool L_1;
 		L_1 = PlatformHelper_get_IsSingleProcessor_m75D2E056F1C01D84884F4DD2DBE547B43AA88421(/*hidden argument*/NULL);
 		G_B4_0 = __this;
@@ -45551,7 +45532,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManualResetEventSlim_EnsureLockObjectCre
 	StackTraceSentry _stackTraceSentry(ManualResetEventSlim_EnsureLockObjectCreated_m4B74C798542D031984B2E14E0465D36C07666C27_RuntimeMethod_var);
 	RuntimeObject * V_0 = NULL;
 	{
-		RuntimeObject * L_0 = __this->get_m_lock_2();
+		RuntimeObject * L_0 = __this->get_m_lock_0();
 		il2cpp_codegen_memory_barrier();
 		if (!L_0)
 		{
@@ -45567,7 +45548,7 @@ IL_000b:
 		RuntimeObject * L_1 = (RuntimeObject *)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(L_1, /*hidden argument*/NULL);
 		V_0 = L_1;
-		RuntimeObject ** L_2 = __this->get_address_of_m_lock_2();
+		RuntimeObject ** L_2 = __this->get_address_of_m_lock_0();
 		il2cpp_codegen_memory_barrier();
 		RuntimeObject * L_3 = V_0;
 		RuntimeObject * L_4;
@@ -45600,7 +45581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ManualResetEventSlim_LazyInitializeEvent
 		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_2 = (ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA *)il2cpp_codegen_object_new(ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA_il2cpp_TypeInfo_var);
 		ManualResetEvent__ctor_mF80BD5B0955BDA8CD514F48EBFF48698E5D03850(L_2, L_1, /*hidden argument*/NULL);
 		V_1 = L_2;
-		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA ** L_3 = __this->get_address_of_m_eventObj_3();
+		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA ** L_3 = __this->get_address_of_m_eventObj_1();
 		il2cpp_codegen_memory_barrier();
 		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_4 = V_1;
 		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_5;
@@ -45639,7 +45620,7 @@ IL_0032:
 		{
 			ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_10 = V_2;
 			Monitor_Enter_mBEB6CC84184B46F26375EC3FC8921D16E48EA4C4(L_10, (bool*)(&V_3), /*hidden argument*/NULL);
-			ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_11 = __this->get_m_eventObj_3();
+			ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_11 = __this->get_m_eventObj_1();
 			il2cpp_codegen_memory_barrier();
 			ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_12 = V_1;
 			if ((!(((RuntimeObject*)(ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA *)L_11) == ((RuntimeObject*)(ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA *)L_12))))
@@ -45740,7 +45721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManualResetEventSlim_Set_mFEF98454549DEC
 		}
 	}
 	{
-		RuntimeObject * L_1 = __this->get_m_lock_2();
+		RuntimeObject * L_1 = __this->get_m_lock_0();
 		il2cpp_codegen_memory_barrier();
 		V_1 = L_1;
 		V_2 = (bool)0;
@@ -45751,7 +45732,7 @@ IL_001b:
 	{ // begin try (depth: 1)
 		RuntimeObject * L_2 = V_1;
 		Monitor_Enter_mBEB6CC84184B46F26375EC3FC8921D16E48EA4C4(L_2, (bool*)(&V_2), /*hidden argument*/NULL);
-		RuntimeObject * L_3 = __this->get_m_lock_2();
+		RuntimeObject * L_3 = __this->get_m_lock_0();
 		il2cpp_codegen_memory_barrier();
 		Monitor_PulseAll_m9A871A997A8AF65B3DDD3B02FA37EB6B70C2DE0C(L_3, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x3C, FINALLY_0032);
@@ -45791,7 +45772,7 @@ IL_003b:
 
 IL_003c:
 	{
-		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_6 = __this->get_m_eventObj_3();
+		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_6 = __this->get_m_eventObj_1();
 		il2cpp_codegen_memory_barrier();
 		V_0 = L_6;
 		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_7 = V_0;
@@ -45819,7 +45800,7 @@ IL_004f:
 		{
 			ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_10 = V_3;
 			Monitor_Enter_mBEB6CC84184B46F26375EC3FC8921D16E48EA4C4(L_10, (bool*)(&V_2), /*hidden argument*/NULL);
-			ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_11 = __this->get_m_eventObj_3();
+			ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_11 = __this->get_m_eventObj_1();
 			il2cpp_codegen_memory_barrier();
 			if (!L_11)
 			{
@@ -45829,7 +45810,7 @@ IL_004f:
 
 IL_0061:
 		{
-			ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_12 = __this->get_m_eventObj_3();
+			ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_12 = __this->get_m_eventObj_1();
 			il2cpp_codegen_memory_barrier();
 			NullCheck(L_12);
 			bool L_13;
@@ -46088,7 +46069,7 @@ IL_00c5:
 	{
 		ManualResetEventSlim_EnsureLockObjectCreated_m4B74C798542D031984B2E14E0465D36C07666C27(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_il2cpp_TypeInfo_var);
-		Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * L_26 = ((ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_StaticFields*)il2cpp_codegen_static_fields_for(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_il2cpp_TypeInfo_var))->get_s_cancellationTokenCallback_14();
+		Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * L_26 = ((ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_StaticFields*)il2cpp_codegen_static_fields_for(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_il2cpp_TypeInfo_var))->get_s_cancellationTokenCallback_3();
 		CancellationTokenRegistration_t407059AA0E00ABE74F43C533E7D035C4BA451F6A  L_27;
 		L_27 = CancellationToken_InternalRegisterWithoutEC_m2450607A39759489E06741B35DE71DD2C677B5CC((CancellationToken_tC9D68381C9164A4BA10397257E87ADC832AF5FFD *)(&___cancellationToken1), L_26, __this, /*hidden argument*/NULL);
 		V_8 = L_27;
@@ -46098,7 +46079,7 @@ IL_00e0:
 	try
 	{ // begin try (depth: 1)
 		{
-			RuntimeObject * L_28 = __this->get_m_lock_2();
+			RuntimeObject * L_28 = __this->get_m_lock_0();
 			il2cpp_codegen_memory_barrier();
 			V_9 = L_28;
 			V_10 = (bool)0;
@@ -46175,7 +46156,7 @@ IL_0141:
 			try
 			{ // begin try (depth: 3)
 				{
-					RuntimeObject * L_39 = __this->get_m_lock_2();
+					RuntimeObject * L_39 = __this->get_m_lock_0();
 					il2cpp_codegen_memory_barrier();
 					int32_t L_40 = V_2;
 					bool L_41;
@@ -46329,7 +46310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManualResetEventSlim_Dispose_m63F106EAC4
 	Exception_t * __last_unhandled_exception = 0;
 	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
-		int32_t L_0 = __this->get_m_combinedState_4();
+		int32_t L_0 = __this->get_m_combinedState_2();
 		il2cpp_codegen_memory_barrier();
 		if (!((int32_t)((int32_t)L_0&(int32_t)((int32_t)1073741824))))
 		{
@@ -46342,10 +46323,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManualResetEventSlim_Dispose_m63F106EAC4
 
 IL_0011:
 	{
-		int32_t L_1 = __this->get_m_combinedState_4();
+		int32_t L_1 = __this->get_m_combinedState_2();
 		il2cpp_codegen_memory_barrier();
 		il2cpp_codegen_memory_barrier();
-		__this->set_m_combinedState_4(((int32_t)((int32_t)L_1|(int32_t)((int32_t)1073741824))));
+		__this->set_m_combinedState_2(((int32_t)((int32_t)L_1|(int32_t)((int32_t)1073741824))));
 		bool L_2 = ___disposing0;
 		if (!L_2)
 		{
@@ -46353,7 +46334,7 @@ IL_0011:
 		}
 	}
 	{
-		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_3 = __this->get_m_eventObj_3();
+		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_3 = __this->get_m_eventObj_1();
 		il2cpp_codegen_memory_barrier();
 		V_0 = L_3;
 		ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA * L_4 = V_0;
@@ -46377,7 +46358,7 @@ IL_003a:
 		NullCheck(L_7);
 		VirtActionInvoker0::Invoke(11 /* System.Void System.Threading.WaitHandle::Close() */, L_7);
 		il2cpp_codegen_memory_barrier();
-		__this->set_m_eventObj_3((ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA *)NULL);
+		__this->set_m_eventObj_1((ManualResetEvent_t9E2ED486907E3A16122ED4E946534E4DD6B5A7BA *)NULL);
 		IL2CPP_LEAVE(0x5D, FINALLY_0053);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -46429,7 +46410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManualResetEventSlim_ThrowIfDisposed_m7D
 	}
 	StackTraceSentry _stackTraceSentry(ManualResetEventSlim_ThrowIfDisposed_m7DE870F451C8BCA2AFEE661371EFFE71B094C4FA_RuntimeMethod_var);
 	{
-		int32_t L_0 = __this->get_m_combinedState_4();
+		int32_t L_0 = __this->get_m_combinedState_2();
 		il2cpp_codegen_memory_barrier();
 		if (!((int32_t)((int32_t)L_0&(int32_t)((int32_t)1073741824))))
 		{
@@ -46470,7 +46451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManualResetEventSlim_CancellationTokenCa
 		V_0 = ((ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E *)IsInstClass((RuntimeObject*)L_0, ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_il2cpp_TypeInfo_var));
 		ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E * L_1 = V_0;
 		NullCheck(L_1);
-		RuntimeObject * L_2 = L_1->get_m_lock_2();
+		RuntimeObject * L_2 = L_1->get_m_lock_0();
 		il2cpp_codegen_memory_barrier();
 		V_1 = L_2;
 		V_2 = (bool)0;
@@ -46483,7 +46464,7 @@ IL_0012:
 		Monitor_Enter_mBEB6CC84184B46F26375EC3FC8921D16E48EA4C4(L_3, (bool*)(&V_2), /*hidden argument*/NULL);
 		ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E * L_4 = V_0;
 		NullCheck(L_4);
-		RuntimeObject * L_5 = L_4->get_m_lock_2();
+		RuntimeObject * L_5 = L_4->get_m_lock_0();
 		il2cpp_codegen_memory_barrier();
 		Monitor_PulseAll_m9A871A997A8AF65B3DDD3B02FA37EB6B70C2DE0C(L_5, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x33, FINALLY_0029);
@@ -46546,14 +46527,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManualResetEventSlim_UpdateStateAtomical
 
 IL_0008:
 	{
-		int32_t L_0 = __this->get_m_combinedState_4();
+		int32_t L_0 = __this->get_m_combinedState_2();
 		il2cpp_codegen_memory_barrier();
 		V_1 = L_0;
 		int32_t L_1 = V_1;
 		int32_t L_2 = ___updateBitsMask1;
 		int32_t L_3 = ___newBits0;
 		V_2 = ((int32_t)((int32_t)((int32_t)((int32_t)L_1&(int32_t)((~L_2))))|(int32_t)L_3));
-		int32_t* L_4 = __this->get_address_of_m_combinedState_4();
+		int32_t* L_4 = __this->get_address_of_m_combinedState_2();
 		il2cpp_codegen_memory_barrier();
 		int32_t L_5 = V_2;
 		int32_t L_6 = V_1;
@@ -46625,7 +46606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManualResetEventSlim__cctor_mED16AB0118A
 	{
 		Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * L_0 = (Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC *)il2cpp_codegen_object_new(Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA671E933C9D3DAE4E3F71D34FDDA971739618158(L_0, NULL, (intptr_t)((intptr_t)ManualResetEventSlim_CancellationTokenCallback_m29F51F6EABB88EE8C779A9AFA57483C3709D8069_RuntimeMethod_var), /*hidden argument*/Action_1__ctor_mA671E933C9D3DAE4E3F71D34FDDA971739618158_RuntimeMethod_var);
-		((ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_StaticFields*)il2cpp_codegen_static_fields_for(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_il2cpp_TypeInfo_var))->set_s_cancellationTokenCallback_14(L_0);
+		((ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_StaticFields*)il2cpp_codegen_static_fields_for(ManualResetEventSlim_tDEDF52539E364C425BA581F3AAF42843AFAD366E_il2cpp_TypeInfo_var))->set_s_cancellationTokenCallback_3(L_0);
 		return;
 	}
 }

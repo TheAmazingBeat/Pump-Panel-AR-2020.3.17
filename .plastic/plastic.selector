@@ -1,4 +1,3 @@
-repository "Pump Panel AR@baldirom000@cloud"
+rep "Pump Panel AR@baldirom000@cloud"
   path "/"
-    br "/main"
-    co "/main"
+    smartbranch "/main"

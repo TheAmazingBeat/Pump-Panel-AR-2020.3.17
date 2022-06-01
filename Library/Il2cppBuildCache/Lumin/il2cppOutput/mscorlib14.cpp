@@ -1181,7 +1181,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* UInt64_Equals_mE3F11FA30AC7187802CFFC59DF5F
 IL2CPP_EXTERN_C const RuntimeMethod* UInt64_GetHashCode_mCDF662897A3F02CED11A9F9E66C5BF4E28C02B33_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UInt64_GetTypeCode_m5133A8EACE875CC2094669E61723B2F3666CF1C0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UInt64_Parse_m6E31F78FCE08E5CB30C9E79C5010D4C37D17F246_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UInt64_Parse_m8FA3828DB6E87067993D3A53DB5C9BB58E1EE02E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UInt64_Parse_mE803A7F2BA4C7147A7EF71410DAA923F666C9E97_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UInt64_System_IConvertible_ToBoolean_m8623102B1C874DD3D3B964BBEC844890B045CE14_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UInt64_System_IConvertible_ToByte_m72B48878A301BBBC8D1DF6552B16C649739D1DB6_RuntimeMethod_var;
@@ -24898,28 +24897,6 @@ IL2CPP_EXTERN_C  String_t* UInt64_ToString_mD0F3D7511719711F9E78F0EBC578FFE6C053
 	String_t* _returnValue;
 	_returnValue = UInt64_ToString_mD0F3D7511719711F9E78F0EBC578FFE6C05320B5(_thisAdjusted, ___format0, ___provider1, method);
 	return _returnValue;
-}
-// System.UInt64 System.UInt64::Parse(System.String,System.Globalization.NumberStyles)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t UInt64_Parse_m8FA3828DB6E87067993D3A53DB5C9BB58E1EE02E (String_t* ___s0, int32_t ___style1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UInt64_Parse_m8FA3828DB6E87067993D3A53DB5C9BB58E1EE02E_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	StackTraceSentry _stackTraceSentry(UInt64_Parse_m8FA3828DB6E87067993D3A53DB5C9BB58E1EE02E_RuntimeMethod_var);
-	{
-		int32_t L_0 = ___style1;
-		NumberFormatInfo_ValidateParseStyleInteger_m2F6A102AFBCE26335E7C07F94750C873F10D55A7(L_0, /*hidden argument*/NULL);
-		String_t* L_1 = ___s0;
-		int32_t L_2 = ___style1;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_3;
-		L_3 = NumberFormatInfo_get_CurrentInfo_m604B9BFDE58530F94955E0EF1A523D37EA87DF02(/*hidden argument*/NULL);
-		uint64_t L_4;
-		L_4 = Number_ParseUInt64_mFCCC7AC98B6B38D9F6D62D7DDFA8F32BF62CDA2A(L_1, L_2, L_3, /*hidden argument*/NULL);
-		return L_4;
-	}
 }
 // System.UInt64 System.UInt64::Parse(System.String,System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t UInt64_Parse_mE803A7F2BA4C7147A7EF71410DAA923F666C9E97 (String_t* ___s0, RuntimeObject* ___provider1, const RuntimeMethod* method)
